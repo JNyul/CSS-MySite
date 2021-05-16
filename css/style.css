@@ -5,6 +5,14 @@
 
 /*************Selector*************/
 
+a {
+    color: #9ddfd3;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
 body {
     margin: 0px;
     font-family: 'Merriweather', serif;
@@ -31,9 +39,7 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
-hr {
-    display: none;
-}
+hr {}
 
 img {}
 
@@ -48,7 +54,47 @@ p {
 
 /*************SelectorClass*************/
 
-.btn {}
+.btn {
+    position: relative;
+    background: #11999e;
+    background-image: -webkit-linear-gradient(top, #11999e, #16aeb3);
+    background-image: -moz-linear-gradient(top, #11999e, #16aeb3);
+    background-image: -ms-linear-gradient(top, #11999e, #16aeb3);
+    background-image: -o-linear-gradient(top, #11999e, #16aeb3);
+    background-image: linear-gradient(to bottom, #11999e, #16aeb3);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.btn:hover {
+    background: #14c6cc;
+    background-image: -webkit-linear-gradient(top, #14c6cc, #21e5e8);
+    background-image: -moz-linear-gradient(top, #14c6cc, #21e5e8);
+    background-image: -ms-linear-gradient(top, #14c6cc, #21e5e8);
+    background-image: -o-linear-gradient(top, #14c6cc, #21e5e8);
+    background-image: linear-gradient(to bottom, #14c6cc, #21e5e8);
+    text-decoration: none;
+}
+
+.bottom-container {
+    position: absolute;
+    width: 100%;
+    background-color: #11999e;
+    margin-top: 10px;
+}
+
+.bottomcloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
 
 .code {
     width: 25%;
@@ -72,20 +118,30 @@ p {
     margin-right: 30px;
 }
 
+.co {
+    margin-top: 20px;
+    font-size: 130%;
+    font-weight: 800;
+}
+
+.endingwords {
+    margin: 10px;
+}
+
+.footer-link {
+    padding: 10px;
+    font-size: 120%;
+}
+
+.introduce {
+    font-size: 1rem;
+    font-weight: 800px;
+}
+
 .top {
     position: relative;
     padding-top: 100px;
     width: 100%;
-}
-
-.bottomcloud {
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
-}
-
-.bottom-container {
-    background-color: #11999e;
 }
 
 .idpic {
@@ -93,7 +149,8 @@ p {
 }
 
 .middle-container {
-    margin: 50px auto 100px auto;
+    margin: 50px auto 50px auto;
+    height: auto;
 }
 
 .mountain {
@@ -110,11 +167,13 @@ p {
     background-color: #9ddfd3;
 }
 
-.skills {}
+.skills {
+    overflow: auto;
+}
 
 .skill-row {
     text-align: left;
     line-height: 2;
-    margin: 100px auto 100px auto;
+    margin: 100px auto 50px auto;
     width: 50%;
 }
