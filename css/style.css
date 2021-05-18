@@ -39,7 +39,9 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
-hr {}
+hr {
+    width: 45%;
+}
 
 img {}
 
@@ -49,6 +51,7 @@ span {
 
 p {
     font-size: 0.75rem;
+    font-weight: 800;
 }
 
 
@@ -84,10 +87,11 @@ p {
 }
 
 .bottom-container {
-    position: absolute;
-    width: 100%;
     background-color: #11999e;
     margin-top: 10px;
+    padding-top: 50px;
+    position: absolute;
+    width: 100%;
 }
 
 .bottomcloud {
@@ -175,5 +179,6 @@ p {
     text-align: left;
     line-height: 2;
     margin: 100px auto 50px auto;
+    overflow: auto;
     width: 50%;
 }
